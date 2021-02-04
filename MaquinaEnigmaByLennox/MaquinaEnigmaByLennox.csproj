@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="enigma.png" />
+    <None Remove="humaru.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="enigma.png" />
+    <Resource Include="humaru.jpg" />
+  </ItemGroup>
+
+</Project>
